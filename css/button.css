@@ -1,0 +1,48 @@
+.start {
+    background-color: rgb(214, 64, 120);
+    border-color: rgb(176, 48, 96);
+    border-radius: 4.796875px;
+    border-style: solid;
+    border-width:1px 1px 4px 1px ;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: Arial;
+    font-size: 16px;
+    height: 35.375px;
+    line-height: 24px;
+    padding: 3.200000047683716px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: rgb(176, 48, 96) 0px 2px 0px;
+    width: 160px;
+}
+
+.button li{
+    background-color: rgb(198, 59, 111);
+    border-color: rgb(176, 48, 96);
+    border-radius: 4.796875px;
+    border-style: solid;
+    border-width:1px 1px 4px 1px ;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 16px;
+    height: 40px;
+    line-height: 19.200000762939453px;
+    list-style-type: none;
+    padding: 8px;
+    margin: 18px auto;
+    text-decoration: none;
+    text-shadow: rgb(176, 48, 96) 0px 2px 0px;
+    width: 262.796875px;
+}
+
+li:active {
+    background-color: #AE3360;
+    color: rgb(255, 255, 255);
+}
+a:active {
+    background-color: #AE3360;
+    color: rgb(255, 255, 255);
+}

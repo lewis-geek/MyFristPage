@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/indexStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/list.css">
+    <link type="text/css" href="css/prism.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/button.css">
+    <script style="text/javascript" src="js/prism.js"></script>
+    <title>学习CSS布局</title>
+</head>
+<body>
+<div class="bar">
+    <div class="b_containner">
+        <ul class="menu">
+            <li class="logo">Lewis</li>
+            <li class="index"><a href="index.html">首页</a></li>
+            <li class="catalogue"><a href="catalogue.html">目录</a></li>
+            <li class="about"><a href="about.html">关于</a></li>
+        </ul>
+    </div>
+</div>
+<div class="head">
+    <div class="container">
+        <h1 style="margin-left: 370px">媒体查询</h1>
+
+        <div class="h_bg">
+
+        </div>
+    </div>
+</div>
+<div class="main" style="background: #9EA0A0">
+
+    <div class="m_2_content" style="width: 700px" >
+        <video id="demo" loop="loop" autoplay="autoplay" style="height: 200px;float: left;">
+            <source src="video/RWD.mp4" type="video/mp4"/>
+        </video>
+        <p style="color:#F9F9F9;font-weight: 500;position: relative;top:40px;">“响应式设计（Responsive Design）”是一种让网站针对不同的浏览器和设备“响应”不同显示效果的策略，这样可以让网站在任何情况下显示的很棒！</p>
+
+    </div>
+</div>
+<div class="main_2">
+    <div class="m_2_content">
+        <p style="margin-top: 20px">媒体查询是做此事所需的最强大的工具。让我们使用百分比宽度来布局，然后在浏览器变窄到无法容纳侧边栏中的菜单时，把布局显示成一列：</p>
+    </div>
+ <pre style="width: 450px;margin: 34px auto;"><code class="language-css">
+     @media screen and (min-width:600px) {
+       nav {
+       float: left;
+       width: 25%;
+     }
+       section {
+       margin-left: 25%;
+       }
+     }
+     @media screen and (max-width:599px) {
+       nav li {
+       display: inline;
+       }
+     }                                      .CSS</code></pre>
+    <div style="clear: both">
+        <a class="start" href="mixList.html">上一页</a>
+        <a class="start" href="build.html">下一页</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Copyright © 2015 Lewis_geek All Rights Reversed.</p>
+</div>
+</body>
+</html>

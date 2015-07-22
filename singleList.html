@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/indexStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/code.css">
+    <link rel="stylesheet" type="text/css" href="css/button.css">
+    <link rel="stylesheet" type="text/css" href="css/list.css">
+    <link type="text/css" href="css/prism.css" rel="stylesheet"/>
+    <script style="text/javascript" src="js/prism.js"></script>
+    <title>学习CSS布局</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="bar">
+    <div class="b_containner">
+        <ul class="menu">
+            <li class="logo">Lewis</li>
+            <li class="index"><a href="index.html">首页</a></li>
+            <li class="catalogue"><a href="catalogue.html">目录</a></li>
+            <li class="about"><a href="about.html">关于</a></li>
+        </ul>
+    </div>
+</div>
+<div class="head">
+    <div class="container">
+        <h1>单列式布局</h1>
+
+        <div class="h_bg">
+
+        </div>
+    </div>
+</div>
+<div class="main">
+    <pre style="width: 450px;margin: 34px auto;"><code class="language-css">
+    body {                  .head, .main, .footer {
+    margin: 0;              width: 960px;
+    padding: 0;             margin: 0 auto
+    font-size: 30px         }
+    }
+    div {                   .head {
+    text-align: center;     height: 50px;
+    font-weight: bold       background: #ccc
+    }                       }
+    .main {                 .footer {
+    height: 200px;          height: 50px;
+    background: #FCC        background: #9CF
+    }                       }                 .CSS</code></pre>
+</div>
+<div class="main_2">
+    <div class="s_content">
+        <div class="s_head"><p style="background-color:#D44378 ">head</p></div>
+        <div class="s_main"><p style="background-color: rgb(253, 199, 47);">main</p></div>
+        <div class="s_footer"><p style="background-color:#7FD4F9 ">footer</p></div>
+    </div>
+    <a class="start" href="index.html">上一页</a>
+    <a class="start" href="doubleList.html">下一页</a>
+</div>
+<div class="footer">
+    <p>Copyright © 2015 Lewis_geek All Rights Reversed.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.head h1 {
+    margin-bottom: 0px;
+    margin-left: 240px;
+    margin-right: 0px;
+    margin-top: 77px;
+    float: left;
+}
+
+.m_centent {
+    width: 580px;
+    margin: 0px auto;
+}
+
+.m_centent a {
+    color: rgb(255, 255, 255);
+}
+
+.ul_left {
+    margin: 34px 0;
+    float: left;
+}
+
+.ul_right {
+    margin: 34px 0;
+    float: right;
+}
+
+@media screen and (max-width: 599px) {
+    .head h1 {
+        margin-left: 0px;
+        margin-top: 85px;
+    }
+    .m_centent {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .ul_left {
+        margin: 0px 0;
+        float: none;
+    }
+
+    .ul_right {
+        margin: 0 0;
+        float: none;
+    }
+}
