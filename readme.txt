@@ -9,3 +9,5 @@ Safari和Firefox测试完美，Chrome中渲染有部分不完美。
 在Android端测试良好。
 
 网站于 2015-6-5 1:30am 制作完成。
+
+ok
